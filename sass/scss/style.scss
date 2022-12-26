@@ -1,0 +1,101 @@
+@import "style";
+
+$primary-color: #fff;
+$second-color: rgba(255, 255, 255, 0.163);
+$height: 84px;
+$widht: 785px;
+$radiuns: 18px;
+
+*{
+    margin: 0;
+}
+
+.ft{
+    display: flex;
+    border-radius: 100px;
+    width: 240px;
+    height: 240px;
+}
+
+
+.text{
+    display: flex;
+    margin-left: 48%;
+    margin-top: 17%;
+    color: $primary-color;
+}
+
+.button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,);
+}
+
+.button1{
+    display: flex;
+    background: rgb(255, 255, 255);
+    width: $widht;
+    height: $height;
+    margin-bottom: 38px;
+    border-radius: $radiuns;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d9d9d9;
+
+    p{
+        color: $primary-color;
+        text-decoration: none;
+    }
+}
+.button2{
+    display: flex;
+    background: $second-color;
+    width: $widht;
+    height: $height;
+    margin-bottom: 38px;
+    border-radius: $radiuns;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d9d9d9;
+
+    p{
+        color: $primary-color;
+        text-decoration: none;
+    }
+}
+.button3{
+    display: flex;
+    background: $second-color;
+    width: $widht;
+    height: $height;
+    border-radius: $radiuns;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d9d9d9;
+
+    p{
+        color: $primary-color;
+        text-decoration: none;
+    }
+}
+
+.icons{
+    
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%,);
+    
+}
+
+.footer{
+    position: absolute;
+    top: 91%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $primary-color;
+    left: 42%;
+}
+
