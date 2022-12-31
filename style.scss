@@ -17,6 +17,13 @@ $radiuns: 18px;
     height: 240px;
 }
 
+@media only screen and (max-width: 800px){
+    .ft{
+        width: 200px;
+        height: 200px;
+    }
+}
+
 
 .text{
     display: flex;
@@ -79,6 +86,23 @@ $radiuns: 18px;
         text-decoration: none;
     }
 }
+.button4{
+    display: flex;
+    background: $second-color;
+    width: $widht;
+    height: $height;
+    border-radius: $radiuns;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d9d9d9;
+    
+    p{
+        color: $primary-color;
+        text-decoration: none;
+    }
+}
+
+
 
 .icons{
     
@@ -98,4 +122,3 @@ $radiuns: 18px;
     color: $primary-color;
     left: 42%;
 }
-
